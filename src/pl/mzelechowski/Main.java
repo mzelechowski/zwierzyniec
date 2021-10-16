@@ -24,6 +24,7 @@ public class Main {
                 a.speak(i);
             }
         }
+
         System.out.println("\nSilent Animals");
         for (Animal a : animals) {
             int i = r.nextInt(5) + 1;
